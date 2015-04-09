@@ -1,3 +1,12 @@
+def none_empty?(input)
+  result = true
+  input.each do |x|
+    if x == '' || x == nil
+      result = false
+    end
+  end
+  result
+end
 
 # ------ code above this line ------
 
