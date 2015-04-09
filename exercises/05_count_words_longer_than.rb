@@ -1,4 +1,10 @@
 def count_words_longer_than(words, length)
+  result = words.count - length
+    if result < 0
+      result = 0
+    else
+    end
+  result
 end
 
 # ------ code above this line ------
