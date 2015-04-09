@@ -1,3 +1,17 @@
+def shortest_word(words)
+  if words == []
+    shortest = nil
+  else
+    shortest = "starting with a long string"
+    words.each do |word|
+      if word.length < shortest.length
+        shortest = word
+      else
+      end
+    end
+  end
+  shortest
+end
 
 # ------ code above this line ------
 
