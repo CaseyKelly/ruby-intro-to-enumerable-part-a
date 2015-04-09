@@ -1,3 +1,17 @@
+def all_empty?(input)
+  result = false
+  acc = 0
+  input.each do |x|
+    if x == '' || x == nil
+      acc += 1
+    end
+  end
+
+  if acc == input.count
+    result = true
+  end
+  result
+end
 
 # ------ code above this line ------
 
